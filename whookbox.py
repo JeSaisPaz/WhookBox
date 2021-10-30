@@ -48,13 +48,13 @@ while True:
     if mainmenu == "help":
         print("""
 -----------------help command------------------
-spam - spam the webhook with custom message
 customspam - spam with custom name, etc...
 spameveryone - spam @everyone on the server
 delete - delete the webhook
 getinfo - get the webhook info
 exit - exit the program
 clear - clear the terminal
+modify - modify name and avatar
 ----------------------------------------------
         """)
     elif mainmenu == "spameveryone":
